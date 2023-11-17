@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body {
+    background: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    font-family: "Anonymous Pro", sans-serif;
+  }
+
+/* подключение локальный шрифтов на страницу */
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(../fonts/AnonymousPro-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+  display: swap;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(../fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+  display: swap;
+}
+
+  h1 {
+    font-size: 48px;
+    color: #121723;
+  }
+  
+  h2 {
+    color: #121723;
+    font-size: 36px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #121723;
+  }
+
+  .sneaker-big__parameters-header h3 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #121723;
+    line-height: 140%;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #121723;
+  }
+  
+  /* header */
+
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #A1A6B4;
+    background: white;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1140px;
+  margin: 24px 0 24px;
+}
+
+.logo-link {
+    max-width: 215px;
+}
+
+/* стили для ссылок в хедере и футере */
+nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+}
+
+.nav-item {
+    display: inline;
+}
+
+.nav-link {
+    color: #121723;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* стили для  */
+.content {
+    margin: 32px 0;
+    max-width: 1140px;
+}
+
+
+  
+
+  /* footer */
+
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #121723;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    margin: 32px 0;
+}
+
+.footer__logo-link {
+    max-width: 300px;
+    width: 100%;
+}
+
+footer .nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1140px;
+    border-top: 1px solid #A1A6B4;
+}
+
+.copyright-text {
+    color: #A1A6B4;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0;
+}
+
+  /* main */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.sneaker-big {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    width: 100%;
+    padding: 48;
+    gap: 32px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.sneaker-big__img img {
+  width: 100%;
+  height: 600px;
+}
+
+.sneaker-big__info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+}
+
+.sneaker-big__additional-info {
+  display: flex;
+  gap: 32px;
+  height: 100%;
+}
+
+.m {
+  margin-top: 28px;
+}
+
+.sneaker-big__text {
+  width: 100%;
+}
+
+.sneaker-big__parameters {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sneaker-big__parameter {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #121723;
+  padding-bottom: 24px;
+}
+
+.sneaker-big__parameters-header {
+  border-bottom: 1px solid #121723;
+  padding-bottom: 24px;
+}
