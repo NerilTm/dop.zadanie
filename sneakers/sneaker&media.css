@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px){
+@media screen and (min-width: 350px) and (max-width: 768px){
     .header-container {
         display: flex;
         flex-direction: column;
@@ -6,7 +6,6 @@
         align-items: center;
         gap: 24px;
         width: 100%;
-        max-width: 375px;
     }
 
     .footer-content {
@@ -16,7 +15,6 @@
         align-items: center;
         gap: 24px;
         width: 100%;
-        max-width: 375px;
         margin: 32px 0;
     }
 
@@ -26,7 +24,6 @@
 
     main {
         box-sizing: border-box;
-        max-width: 375px;
         padding: 0px 16px;
     }
 
